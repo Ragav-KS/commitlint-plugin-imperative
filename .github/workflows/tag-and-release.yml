@@ -41,7 +41,7 @@ jobs:
           npx prettier CHANGELOG.md --write
           # Commit and push
           git add package.json CHANGELOG.md
-          git commit -m "chore(project): Bump version to ${{ steps.calculate_version.outputs.new_tag }}"
+          git commit -m "chore(package): bump version to ${{ steps.calculate_version.outputs.new_tag }}"
           git push
 
       - name: Output sha of last commit
