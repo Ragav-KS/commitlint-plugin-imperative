@@ -41,5 +41,8 @@
   },
   "peerDependencies": {
     "@commitlint/lint": ">=7.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
