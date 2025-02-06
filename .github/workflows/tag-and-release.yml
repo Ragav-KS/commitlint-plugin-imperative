@@ -71,7 +71,7 @@ jobs:
 
       - name: Publish package to NPM registry
         env:
-          NPM_TOKEN: ${{ secrets.NPM_REGISTRY_ACCESS_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npm publish
 
       - name: Bump version and push tag
