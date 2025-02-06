@@ -4,7 +4,8 @@
   "description": "commitlint plugin to ensure that commits are made using imperative mood using NLP model",
   "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
