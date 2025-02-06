@@ -29,6 +29,9 @@
     "prepare": "husky",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "compromise": "^14.14.4"
+  },
   "devDependencies": {
     "@commitlint/cli": "^19.7.1",
     "@commitlint/config-conventional": "^19.7.1",
