@@ -73,7 +73,7 @@ jobs:
       - name: Publish package to NPM registry
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npm publish
+        run: npm publish --provenance
 
       - name: Bump version and push tag
         id: tag_version
