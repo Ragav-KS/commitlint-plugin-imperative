@@ -91,6 +91,6 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           name: Release ${{ steps.tag_version.outputs.new_tag }}
-          artifacts: 'ragav-ks-commitlint-plugin-imperative-*.vsix'
+          artifacts: 'ragav-ks-commitlint-plugin-imperative-*.tgz'
           tag: ${{ steps.tag_version.outputs.new_tag }}
           body: ${{ steps.tag_version.outputs.changelog }}
