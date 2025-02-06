@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.2.0](https://github.com/Ragav-KS/commitlint-plugin-imperative/compare/v0.1.0...v0.2.0) (2025-02-06)
+
+### Features
+
+- **cd:** confiugure pipeline to create GitHub releases ([#11](https://github.com/Ragav-KS/commitlint-plugin-imperative/issues/11)) ([ef625f1](https://github.com/Ragav-KS/commitlint-plugin-imperative/commit/ef625f11092d1f6a7fe074f4304a0287ae4b3372)), closes [#10](https://github.com/Ragav-KS/commitlint-plugin-imperative/issues/10)
+
 ## [0.1.0](https://github.com/Ragav-KS/commitlint-plugin-imperative/compare/v0.0.1...v0.1.0) (2025-02-06)
 
 ### Features
