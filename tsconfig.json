@@ -5,7 +5,7 @@
     "module": "ES2022",
     "moduleResolution": "node",
     "outDir": "dist",
-    "sourceMap": true,
+    "sourceMap": false,
     "strict": true,
     "target": "ES2024"
   },

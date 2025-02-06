@@ -17,8 +17,13 @@
   "license": "MIT",
   "author": "Sundararagavan K S",
   "type": "module",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
+    "build": "tsc",
     "commitlint": "commitlint --edit",
     "format": "prettier --write .",
     "prepare": "husky",
@@ -35,5 +40,8 @@
   },
   "peerDependencies": {
     "@commitlint/lint": ">=7.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
