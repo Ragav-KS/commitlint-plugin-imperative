@@ -6,6 +6,7 @@ const config = {
   bracketSameLine: true,
   singleAttributePerLine: true,
   singleQuote: true,
+  plugins: ["prettier-plugin-packagejson"],
 };
 
 export default config;
