@@ -1,4 +1,4 @@
-import { Plugin } from "@commitlint/types";
+import { Plugin } from '@commitlint/types';
 
 const plugin: Plugin = {
   rules: {},

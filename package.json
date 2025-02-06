@@ -2,31 +2,31 @@
   "name": "@ragav-ks/commitlint-plugin-imperative",
   "version": "0.0.1",
   "description": "commitlint plugin to ensure that commits are made using imperative mood using NLP model",
-  "main": "src/index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write ."
+  "keywords": [
+    "commitlint",
+    "commitlintplugin"
+  ],
+  "homepage": "https://github.com/Ragav-KS/commitlint-plugin-imperative#readme",
+  "bugs": {
+    "url": "https://github.com/Ragav-KS/commitlint-plugin-imperative/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ragav-KS/commitlint-plugin-imperative.git"
   },
-  "keywords": [
-    "commitlint",
-    "commitlintplugin"
-  ],
-  "author": "Sundararagavan K S",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Ragav-KS/commitlint-plugin-imperative/issues"
+  "author": "Sundararagavan K S",
+  "main": "src/index.ts",
+  "scripts": {
+    "format": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/Ragav-KS/commitlint-plugin-imperative#readme",
   "devDependencies": {
     "@commitlint/cli": "^19.7.1",
     "@commitlint/types": "^19.5.0",
     "prettier": "^3.4.2",
-    "typescript": "^5.7.3",
-    "prettier-plugin-packagejson": "^2.5.8"
+    "prettier-plugin-packagejson": "^2.5.8",
+    "typescript": "^5.7.3"
   },
   "peerDependencies": {
     "@commitlint/lint": ">=7.6.0"
