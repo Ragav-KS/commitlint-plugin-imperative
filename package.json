@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/Ragav-KS/commitlint-plugin-imperative/issues"
   },
-  "homepage": "https://github.com/Ragav-KS/commitlint-plugin-imperative#readme"
+  "homepage": "https://github.com/Ragav-KS/commitlint-plugin-imperative#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/types": "^19.5.0",
+    "typescript": "^5.7.3"
+  },
+  "peerDependencies": {
+    "@commitlint/lint": ">=7.6.0"
+  }
 }
