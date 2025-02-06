@@ -1,5 +1,11 @@
 # Change Log
 
+### [0.2.1](https://github.com/Ragav-KS/commitlint-plugin-imperative/compare/v0.2.0...v0.2.1) (2025-02-06)
+
+### Bug Fixes
+
+- **cd:** give correct permissions to create releases ([#13](https://github.com/Ragav-KS/commitlint-plugin-imperative/issues/13)) ([5953048](https://github.com/Ragav-KS/commitlint-plugin-imperative/commit/595304868e5cff2ad2f8859dd1a2b18cb9c14782)), closes [#12](https://github.com/Ragav-KS/commitlint-plugin-imperative/issues/12)
+
 ## [0.2.0](https://github.com/Ragav-KS/commitlint-plugin-imperative/compare/v0.1.0...v0.2.0) (2025-02-06)
 
 ### Features
