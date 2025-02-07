@@ -1,12 +1,11 @@
 import { Plugin } from '@commitlint/types';
+import { imperativeSubjectRule } from './rules';
+export { isImperative } from './utils/isImperative';
 
-const plugin: Plugin = {
+const plugin = {
   rules: {
-    'imperative-subject': () => [
-      false,
-      'This is a scaffold rule. Implementation pending.',
-    ],
+    'imperative-subject': imperativeSubjectRule,
   },
-};
+} satisfies Plugin;
 
 export default plugin;
