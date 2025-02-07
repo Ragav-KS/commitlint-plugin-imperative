@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.3.0](https://github.com/Ragav-KS/commitlint-plugin-imperative/compare/v0.2.1...v0.3.0) (2025-02-07)
+
+### Features
+
+- **rule:** implement the logic for imperative subject rule ([#14](https://github.com/Ragav-KS/commitlint-plugin-imperative/issues/14)) ([d88e11d](https://github.com/Ragav-KS/commitlint-plugin-imperative/commit/d88e11d5671ebe64c6e43bba58765f12fa465b63)), closes [#8](https://github.com/Ragav-KS/commitlint-plugin-imperative/issues/8)
+
 ### [0.2.1](https://github.com/Ragav-KS/commitlint-plugin-imperative/compare/v0.2.0...v0.2.1) (2025-02-06)
 
 ### Bug Fixes
