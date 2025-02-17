@@ -1,5 +1,12 @@
 # Change Log
 
+### [1.0.1](https://github.com/Ragav-KS/commitlint-plugin-imperative/compare/v1.0.0...v1.0.1) (2025-02-17)
+
+### Bug Fixes
+
+- **extension:** augment compromise's core logic ([#22](https://github.com/Ragav-KS/commitlint-plugin-imperative/issues/22)) ([c6fd79e](https://github.com/Ragav-KS/commitlint-plugin-imperative/commit/c6fd79ea2aa6794f889bb01c7925279989a0e97a)), closes [#21](https://github.com/Ragav-KS/commitlint-plugin-imperative/issues/21)
+- **extension:** simplify core logic of extension ([#19](https://github.com/Ragav-KS/commitlint-plugin-imperative/issues/19)) ([e703412](https://github.com/Ragav-KS/commitlint-plugin-imperative/commit/e703412a33c9bbb8ba57bd86e3680dc00a8c337b)), closes [#18](https://github.com/Ragav-KS/commitlint-plugin-imperative/issues/18)
+
 ## [1.0.0](https://github.com/Ragav-KS/commitlint-plugin-imperative/compare/v0.3.1...v1.0.0) (2025-02-17)
 
 ### ⚠ BREAKING CHANGES
