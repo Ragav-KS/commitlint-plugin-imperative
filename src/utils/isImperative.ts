@@ -15,6 +15,10 @@ export function isImperative(
 ): IsImperativeResult {
   const doc = nlp(sentence);
 
+  if (debug) {
+    console.log('terms', doc.docs.flat());
+  }
+
   let firstTerm = doc.terms().first(); // Get the first word
 
   const isFirstTermVerb = firstTerm.has('#Verb');
@@ -26,15 +30,6 @@ export function isImperative(
 
   if (isImperative) {
     return { isImperative: true };
-  }
-
-  if (debug) {
-    console.log(
-      'isImperative according to compromise?',
-      doc.verbs().isImperative().found,
-    );
-
-    console.log('terms', doc.docs.flat());
   }
 
   if (isFirstTermVerb) {
