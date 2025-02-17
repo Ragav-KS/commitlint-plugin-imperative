@@ -20,7 +20,9 @@ export function isImperative(
   const isFirstTermVerb = firstTerm.has('#Verb');
   const isFirstTermPresentTense = firstTerm.has('#PresentTense');
 
-  const isImperative = isFirstTermVerb && isFirstTermPresentTense;
+  const isImperative =
+    doc.verbs().isImperative().found ||
+    (isFirstTermVerb && isFirstTermPresentTense);
 
   if (isImperative) {
     return { isImperative: true };
