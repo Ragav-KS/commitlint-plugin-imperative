@@ -15,19 +15,35 @@ export function isImperative(
 ): IsImperativeResult {
   const doc = nlp(sentence);
 
-  if (debug) {
-    console.log(doc.docs.flat());
-  }
+  let firstTerm = doc.terms().first(); // Get the first word
 
-  const verbs = doc.verbs();
-  const isImperative = verbs.isImperative().found;
+  const isFirstTermVerb = firstTerm.has('#Verb');
+  const isFirstTermPresentTense = firstTerm.has('#PresentTense');
+
+  const isImperative = isFirstTermVerb && isFirstTermPresentTense;
 
   if (isImperative) {
     return { isImperative: true };
   }
 
-  return {
-    isImperative: false,
-    reason: 'The subject is not in imperative form.',
-  };
+  if (debug) {
+    console.log(
+      'isImperative according to compromise?',
+      doc.verbs().isImperative().found,
+    );
+
+    console.log('terms', doc.docs.flat());
+  }
+
+  if (isFirstTermVerb) {
+    return {
+      isImperative: false,
+      reason: 'The first verb term must be in present tense.',
+    };
+  } else {
+    return {
+      isImperative: false,
+      reason: 'The first term is not a verb.',
+    };
+  }
 }
