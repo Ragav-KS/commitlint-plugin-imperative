@@ -1,6 +1,6 @@
 {
   "name": "@ragav-ks/commitlint-plugin-imperative",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "commitlint plugin to ensure that commits are made using imperative mood using NLP model",
   "keywords": [
     "commitlint",

@@ -1,5 +1,15 @@
 # Change Log
 
+## [1.0.0](https://github.com/Ragav-KS/commitlint-plugin-imperative/compare/v0.3.1...v1.0.0) (2025-02-17)
+
+### ⚠ BREAKING CHANGES
+
+- **README:** MVP release
+
+### chore
+
+- **README:** Update the README file ([#17](https://github.com/Ragav-KS/commitlint-plugin-imperative/issues/17)) ([a2c4649](https://github.com/Ragav-KS/commitlint-plugin-imperative/commit/a2c4649323db59a9ca1e264b176050ce28ffc79a)), closes [#6](https://github.com/Ragav-KS/commitlint-plugin-imperative/issues/6)
+
 ## [0.3.0](https://github.com/Ragav-KS/commitlint-plugin-imperative/compare/v0.2.1...v0.3.0) (2025-02-07)
 
 ### Features
