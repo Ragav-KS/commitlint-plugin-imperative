@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.1.0](https://github.com/Ragav-KS/commitlint-plugin-imperative/compare/v1.0.1...v1.1.0) (2025-11-09)
+
+### Features
+
+- **github:** configure automatic dependabot updates ([#26](https://github.com/Ragav-KS/commitlint-plugin-imperative/issues/26)) ([73cc4f3](https://github.com/Ragav-KS/commitlint-plugin-imperative/commit/73cc4f3cb4d08079830c4a0962a8d005b2652a39))
+
 ### [1.0.1](https://github.com/Ragav-KS/commitlint-plugin-imperative/compare/v1.0.0...v1.0.1) (2025-02-17)
 
 ### Bug Fixes
