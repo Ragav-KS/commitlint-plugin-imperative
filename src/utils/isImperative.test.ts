@@ -1,0 +1,42 @@
+import { describe, expect, test } from 'vitest';
+import { isImperative } from './isImperative';
+
+describe('isImperative', () => {
+  test('valid imperative sentences should return true', () => {
+    const validImperatives = [
+      'replace stale data with fresh data',
+      'bump version to v1.2.0',
+      'add new feature to dashboard',
+      'fix critical bug in authentication',
+      'update dependencies to latest versions',
+      'refactor database query logic',
+    ];
+
+    validImperatives.forEach((sentence, index) => {
+      const result = isImperative(sentence);
+      expect(
+        result.isImperative,
+        `#${index + 1} Failed: "${sentence}" - ${result.isImperative ? 'OK' : (result as any).reason}`,
+      ).toBe(true);
+    });
+  });
+
+  test('invalid imperative sentences should return false', () => {
+    const invalidImperatives = [
+      'this is not imperative',
+      'the service was updated',
+      'a new feature has been added',
+      'bugs are being fixed',
+      'dependencies updated successfully',
+      'the branch was merged',
+    ];
+
+    invalidImperatives.forEach((sentence, index) => {
+      const result = isImperative(sentence, false);
+      expect(
+        result.isImperative,
+        `#${index + 1} Failed: "${sentence}" - should not be imperative`,
+      ).toBe(false);
+    });
+  });
+});
