@@ -27,7 +27,7 @@
     "commitlint": "commitlint --edit",
     "format": "prettier --write .",
     "prepare": "husky",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
   "dependencies": {
     "compromise": "^14.14.4"
