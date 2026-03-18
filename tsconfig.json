@@ -2,12 +2,12 @@
   "compilerOptions": {
     "declaration": true,
     "esModuleInterop": true,
-    "module": "ES2022",
-    "moduleResolution": "node",
+    "module": "esnext",
+    "moduleResolution": "nodenext",
     "outDir": "dist",
     "sourceMap": false,
     "strict": true,
-    "target": "ES2024"
+    "target": "esnext"
   },
   "exclude": ["node_modules"],
   "include": ["src/**/*.ts"]
