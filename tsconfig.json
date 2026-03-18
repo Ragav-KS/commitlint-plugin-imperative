@@ -2,7 +2,7 @@
   "compilerOptions": {
     "declaration": true,
     "esModuleInterop": true,
-    "module": "esnext",
+    "module": "nodenext",
     "moduleResolution": "nodenext",
     "outDir": "dist",
     "sourceMap": false,
