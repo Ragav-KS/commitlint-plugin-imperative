@@ -1,5 +1,11 @@
 # Change Log
 
+### [1.1.1](https://github.com/Ragav-KS/commitlint-plugin-imperative/compare/v1.1.0...v1.1.1) (2026-06-03)
+
+### Tests
+
+- add comprehensive unit tests for isImperative function ([#45](https://github.com/Ragav-KS/commitlint-plugin-imperative/issues/45)) ([19d5fb3](https://github.com/Ragav-KS/commitlint-plugin-imperative/commit/19d5fb3e2d84d37d090e0aa4a29dd3db2f3041cb)), closes [#20](https://github.com/Ragav-KS/commitlint-plugin-imperative/issues/20)
+
 ## [1.1.0](https://github.com/Ragav-KS/commitlint-plugin-imperative/compare/v1.0.1...v1.1.0) (2025-11-09)
 
 ### Features
